@@ -5,7 +5,7 @@ const ChapterOne = () => {
     <div>
       <NavBarChapters />
       <div className="flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-slate-200 md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md">
-        <h3 className="text-lg text-center justify-center text-clip tracking-wider font-extrabold text-[#9bc9d4] border border-[#9bc9d4] rounded-md mx-2 mt-2">
+        <h3 className="text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#9bc9d4] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Experience Chapter: Turning Knowledge into Action
         </h3>
         <p className="text-start text-xs mt-3 mx-3 text-[#1a8795]  font-bold">

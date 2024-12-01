@@ -5,7 +5,7 @@ const ChapterTwo = () => {
   return (
     <div >
       <NavBarChapters />
-      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-slate-200 sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2230px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md">
+      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-slate-200 sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2770px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md">
         <h1 className="text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#9bc9d4] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Education Chapter: Building a Foundation
         </h1>
@@ -23,7 +23,7 @@ const ChapterTwo = () => {
                         <p className='text-[#b1d9e7] font-extrabold text-md'>{chapter.title}</p>
                         <h6 className="text-xs mt-2 text-[#9bc9d4] font-bold">{chapter.subtitle}</h6>
                         <div className='mt-6'>
-                            <h6 className='text-[10px] text-center text-white font-bold'>{chapter.description}</h6>
+                            <h6 className='text-[12px] text-center text-white font-bold'>{chapter.description}</h6>
                         </div>
                         <div className="flex flex-wrap justify-between">
                         <h6 className="text-[10px] font-bold text-start mt-2 mx-1 text-[#9bc9d4]">{chapter.date}</h6>

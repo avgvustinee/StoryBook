@@ -5,6 +5,7 @@ import ChapterOne from "./pages/ChapterOne";
 import ChapterTwo from "./pages/ChapterTwo";
 import ChapterThree from "./pages/ChapterThree";
 import ChapterFour from "./pages/ChapterFour";
+import ChapterFive from "./pages/ChapterFive";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
@@ -13,6 +14,8 @@ const router = createBrowserRouter([
   { path: "/chapter2", element: <ChapterTwo /> },
   { path: "/chapter3", element: <ChapterThree /> },
   { path: "/chapter4", element: <ChapterFour /> },
+  { path: "/chapter5", element: <ChapterFive /> },
+
 ]);
 
 export default router;

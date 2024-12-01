@@ -15,6 +15,7 @@ export const menuItems = [
   { label: "Chapter 2", link: "/chapter2" },
   { label: "Chapter 3", link: "/chapter3" },
   { label: "Chapter 4", link: "/chapter4" },
+  { label: "Chapter 5", link: "/chapter5" },
 ];
 
 export const chapterPreview = [
@@ -33,18 +34,26 @@ export const chapterPreview = [
     label: "Learn from me!",
   },
   {
-    title: "Chapter 3:Projects",
-    description:
-      "Dive into the projects I’ve worked on, from React apps to TypeScript integrations. This chapter features the tools, technologies, and challenges I’ve encountered while building real-world applications and solutions.",
-    link: "/chapter3",
-    label: "Build with me! ",
-  },
-  {
-    title: "Chapter 4:About Me",
+    title: "Chapter 3:About Me",
     description:
       "Get to know me better—my background, values, and what drives me. I’ll share my personal interests, motivations, and long-term goals, both in tech and beyond, as I continue to grow in the computer science industry.",
-    link: "/chapter4",
+    link: "/chapter3",
     label: "Meet me!",
+  },
+  {
+    title: "Chapter 4:Projects",
+    description:
+      "Dive into the projects I’ve worked on, from React apps to TypeScript integrations. This chapter features the tools, technologies, and challenges I’ve encountered while building real-world applications and solutions.",
+    link: "/chapter4",
+    label: "Build with me! ",
+  },
+  
+  {
+    title: "Chapter 5: Coding Journey",
+    description:
+      "Embark on my coding journey, starting from my first year at university, where I discovered a passion for problem-solving and programming. I’ll walk you through how I honed my skills, from mastering the fundamentals to tackling complex projects. This chapter showcases the growth, challenges, and achievements that defined my path until I completed my studies and beyond.",
+    link: "/chapter5",
+    label: "Explore the journey!",
   },
 ];
 

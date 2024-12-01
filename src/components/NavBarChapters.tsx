@@ -34,7 +34,7 @@ const NavBarChapters = () => {
                   <li key={index}>
                     <Link
                       to={item.link}
-                      className="block px-4 py-2 text-white hover:bg-[#24e3d0] transition-colors duration-200 font-extrabold"
+                      className="block mb-1 px-4 py-1 text-white hover:bg-[#24e3d0] transition-colors duration-200 font-extrabold"
                       onClick={() => setMobileDrawerOpen(false)}
                     >
                       {item.label}

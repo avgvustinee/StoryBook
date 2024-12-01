@@ -37,16 +37,16 @@ const NavBar = () => {
             </ul>
           </div>
           {mobileDrawerOpen && (
-            <div className=" top-full   mr-20 sm:text-center  h-[360px] justify-start sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9] rounded-lg shadow-lg overflow-hidden">
+            <div className=" top-full  mr-20 sm:text-center  h-[360px] justify-start sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9] rounded-lg shadow-lg overflow-hidden">
               <h2 className="px-4 py-3 text-lg text-[#d8edf3] border-b border-[#d8edf3]/20 text-center font-extrabold">
                 Hello My Friend, choose a chapter you would like to read today!
               </h2>
-              <ul className="py-2">
+              <ul className="py-2 ">
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     <Link
                       to={item.link}
-                      className="block px-4 py-2 text-white hover:bg-[#24e3d0] transition-colors duration-200 font-extrabold"
+                      className="block  mb-1 px-4 py-1 text-white hover:bg-[#24e3d0] transition-colors duration-200 font-extrabold"
                       onClick={() => setMobileDrawerOpen(false)}
                     >
                       {item.label}
