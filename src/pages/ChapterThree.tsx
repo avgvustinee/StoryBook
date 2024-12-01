@@ -78,7 +78,8 @@ const ChapterThree = () => {
         <div className=" mb-3  mt-5 tracking-wide font-semibold text-white ">
           <ul className="list-inside mx-3">
             <li className=" text-[12px]">
-              A fun fact about me? I never back down from a challenge. My motto:
+              A fun fact about me? I never back down from a challenge. <br/>
+               My motto:
               'Learning never exhausts the mind.' – Leonardo da Vinci
             </li>
           </ul>

@@ -2,10 +2,10 @@ import { BsGithub, BsLinkedin, BsMedium } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
 export const navItems = [
-  { icons: <MdEmail />, link: "a" },
-  { icons: <BsGithub />, link: "b" },
-  { icons: <BsLinkedin />, link: "c" },
-  { icons: <BsMedium />, link: "d" },
+  { icons: <MdEmail />, link: "mailto:deus.engenheiro@gmail.com" },
+  { icons: <BsGithub />, link: "https://github.com/avgvustinee" },
+  { icons: <BsLinkedin />, link: "http://linkedin.com/in/avgvstinee" },
+  { icons: <BsMedium />, link: "https://medium.com/@avgvstinee" },
 ];
 
 export const menuItems = [
