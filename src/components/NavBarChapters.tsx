@@ -11,7 +11,7 @@ const NavBarChapters = () => {
   };
 
   return (
-    <div className="bg-[#9bc9d4] sticky top-0 h-full">
+    <div className="bg-[#4daaa9] sticky top-0 h-full">
       <nav className="sticky top-0 backdrop-blur-sm z-50 py-4 mr-3">
         <div className="container py-3 mx-auto relative text-sm">
           <div className="flex justify-end items-center mx-5 sm:mr-5 md:mr-5 lg:mr-1">

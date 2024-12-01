@@ -7,7 +7,7 @@ const StoryBook = () => {
   return (
     <>
     <NavBar/>
-    <div className="bg-[#9bc9d4] min-h-screen">
+    <div className="bg-[#4daaa9] min-h-screen">
         
         <HeroSection/>
         <Chapters/>
