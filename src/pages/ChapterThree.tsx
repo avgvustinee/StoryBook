@@ -14,7 +14,7 @@ const ChapterThree = () => {
         <span className="text-[#3fc7e2] text-start text-xs font-extrabold  mx-6">
           -Tony Robbins
         </span>
-        <div className="mx-3 mt-5">
+        <div className=" flex flex-col mx-3 mt-6">
           <h3 className="border-b border-[#ddecfa] font-extrabold text-[#b1d9e7]">
             Personal Introduction
           </h3>
