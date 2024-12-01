@@ -4,14 +4,14 @@ const ChapterOne = () => {
   return (
     <div>
       <NavBarChapters />
-      <div className="flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-[#4d7daa] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md">
+      <div className="flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-[#214c74] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md">
         <h3 className="text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#ddecfa] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Experience Chapter: Turning Knowledge into Action
         </h3>
         <p className="text-start text-xs mt-3 mx-3 text-[#ddecfa]  font-bold">
           "The most Powerful Person in the World is the Storyteller"{" "}
         </p>
-        <span className="text-white text-start text-xs font-extrabold  mx-6">
+        <span className="text-[#3fc7e2] text-start text-xs font-extrabold  mx-6">
           -Steve Jobs
         </span>
 
