@@ -62,10 +62,11 @@ export const education = [
     title: "Motsheudi High School Chapter",
     subtitle: "Where It All Began",
     description:
-      "My journey began at Motshedudi High School, where I laid the foundation for my academic and personal growth. It was here that I discovered my love for learning and developed a strong work ethic. Throughout these formative years, I excelled academically, embraced leadership opportunities, and participated in various school activities. My time at Motshedudi shaped my values of perseverance, discipline, and curiosity, which continue to guide me today. The lessons learned and the friendships forged during high school remain integral to my story, marking the start of a journey filled with ambition and purpose. I was the best Mathematical Student with a track record of achievements, I proudly participated at Math Olympics and secured second position,In 2017 , i completed my High School Studies embarking into a new journey of University level to elevate my mind in science and computer cognition. ",
+      "My journey began at Motshedudi High School, where I laid the foundation for my academic and personal growth. It was here that I discovered my love for learning and developed a strong work ethic. \n\nThroughout these formative years, I excelled academically, embraced leadership opportunities, and participated in various school activities. My time at Motsheudi shaped my values of perseverance, discipline, and curiosity, which continue to guide me today. The lessons learned and the friendships forged during high school remain integral to my story, marking the start of a journey filled with ambition and purpose. I was the best Mathematical Student with a track record of achievements, I proudly participated at Math Olympics and secured second position,In 2017 , i completed my High School Studies embarking into a new journey of University level to elevate my mind in science and computer cognition. ",
     date: "2013-2017",
     status: "Completed",
   },
+  
   {
     title: "Undergraduate Chapter ",
     subtitle: "The University Journey",

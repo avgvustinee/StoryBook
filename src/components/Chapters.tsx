@@ -11,10 +11,10 @@ const Chapters = () => {
                     <div className='"bg-[#4daaa9]   rounded-md p-6  border border-neutral-100 ' >
                         <p className='text-[#b1d9e7] font-extrabold text-md'>{chapter.title}</p>
                         <div className='mt-6'>
-                            <h6 className='text-[10px] text-center text-white '>{chapter.description}</h6>
+                            <h6 className='text-[10px] text-center font-bold  text-white '>{chapter.description}</h6>
                         </div>
                         <div className='flex flex-wrap justify-center mt-5'>
-                            <Link className='px-3 py-1 text-[#d0e7ef] border rounded-md text-[10px] hover:bg-[#6093a0] ' to={chapter.link}>{chapter.label}</Link>
+                            <Link className='px-3 py-1 text-[#d0e7ef] border font-bold rounded-md text-[10px] hover:bg-[#6093a0] ' to={chapter.link}>{chapter.label}</Link>
                         </div>
                         
                     </div>

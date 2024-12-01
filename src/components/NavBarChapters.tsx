@@ -25,7 +25,7 @@ const NavBarChapters = () => {
             </div>
           </div>
           {mobileDrawerOpen && (
-            <div className=" top-full sm:text-center  h-[360px] justify-end sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9] rounded-lg shadow-lg overflow-hidden ">
+            <div className=" top-full  sm:text-center  h-[360px] justify-end sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9]  rounded-lg shadow-lg overflow-hidden ">
               <h2 className="px-4 py-3 text-lg text-[#d8edf3] border-b border-[#d8edf3]/20 text-center font-extrabold">
                 Hello My Friend, choose a chapter you would like to read today!
               </h2>
