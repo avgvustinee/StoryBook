@@ -5,7 +5,7 @@ const ChapterTwo = () => {
   return (
     <div >
       <NavBarChapters />
-      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-slate-200 sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2550px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md">
+      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-slate-200 sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2230px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md">
         <h1 className="text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#9bc9d4] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Education Chapter: Building a Foundation
         </h1>
@@ -16,9 +16,9 @@ const ChapterTwo = () => {
         </span>
         </div>
 
-        <div className='flex flex-wrap mt-[100px] h-[100px]'>
+        <div className='flex flex-wrap mt-[40px] h-[100px]'>
             {education.map((chapter,index) =>(
-                <div key={index} className='w-1/2 sm:w-1/2 lg:w-1/2 px-4 py-2 '>
+                <div key={index} className='sm:w-1/2 lg:w-1/2 px-4 py-2 '>
                     <div className='bg-[#96abb0]  rounded-md p-6  border border-neutral-100 ' >
                         <p className='text-[#b1d9e7] font-extrabold text-md'>{chapter.title}</p>
                         <h6 className="text-xs mt-2 text-[#9bc9d4] font-bold">{chapter.subtitle}</h6>

@@ -20,7 +20,7 @@ const LandingPage = () => {
             Welcome to my computer science storybook grab a snack, it is going to be
             an exciting ride!.
           </p>
-          <div className="mt-20 flex justify-center animate-slidein ">
+          <div className="mt-10  mb-10 flex justify-center animate-slidein ">
             <Link
               to='/stories'
               className=" flex  py-2 bg-[#b1d9e7] text-white rounded-md w-40 h-10 border text-center hover:bg-[#8db6c1] font-roboto"
