@@ -20,7 +20,6 @@ const ChapterThree = () => {
               I am Augustine, a passionate and curious problem-solver with a
               deep interest in technology and innovation.
               <br />
-              <br />
               My journey began with a fascination for how things work, leading
               me to explore the world of coding, artificial intelligence, and
               digital solutions.
