@@ -20,11 +20,11 @@ export const menuItems = [
 
 export const chapterPreview = [
   {
-    title: "Chapter 1:Experience",
+    title: "Chapter 1:About Me",
     description:
-      "Explore my journey in the tech world, where I’ve grown through hands-on roles, key projects, and valuable skills. From internships to collaborations, this chapter highlights the milestones that shaped my professional development. ",
+      "Get to know me better—my background, values, and what drives me. I’ll share my personal interests, motivations, and long-term goals, both in tech and beyond, as I continue to grow in the computer science industry.",
     link: "/chapter1",
-    label: " Flex with me!",
+    label: "Meet me!",
   },
   {
     title: "Chapter 2:Education",
@@ -34,12 +34,14 @@ export const chapterPreview = [
     label: "Learn from me!",
   },
   {
-    title: "Chapter 3:About Me",
+    title: "Chapter 3:Experience",
     description:
-      "Get to know me better—my background, values, and what drives me. I’ll share my personal interests, motivations, and long-term goals, both in tech and beyond, as I continue to grow in the computer science industry.",
+      "Explore my journey in the tech world, where I’ve grown through hands-on roles, key projects, and valuable skills. From internships to collaborations, this chapter highlights the milestones that shaped my professional development. ",
     link: "/chapter3",
-    label: "Meet me!",
+    label: " Flex with me!",
   },
+  
+  
   {
     title: "Chapter 4:Projects",
     description:

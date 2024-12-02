@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-[#4daaa9] sticky top-0">
+    <div className="bg-[#4daaa9] sticky z-50 top-0">
       <nav className="sticky top-0 backdrop-blur-sm z-50 py-4 mr-3">
         <div className="container py-3 mx-auto relative text-sm">
           <div className="flex justify-between items-center mx-5 sm:mr-5 md:mr-5 lg:mr-1">
@@ -37,8 +37,8 @@ const NavBar = () => {
             </ul>
           </div>
           {mobileDrawerOpen && (
-            <div className=" top-full  mr-20 sm:text-center  h-[360px] justify-start sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9] rounded-lg shadow-lg overflow-hidden">
-              <h2 className="px-4 py-3 text-lg text-[#d8edf3] border-b border-[#d8edf3]/20 text-center font-extrabold">
+            <div className=" top-full motion-preset-slide-right-lg motion-duration-2000  mr-20 sm:text-center  h-[360px] justify-start sm:h-[700px] sm:w-[600px]  md:h-[730px] md:w-[600px] lg:h-[720px] lg:w-[720px]  mx-2 left-0 w-64 mt-2 bg-[#4daaa9] rounded-lg shadow-lg overflow-hidden">
+              <h2 className="px-4 py-3 motion-preset-shake text-lg text-[#d8edf3] border-b border-[#d8edf3]/20 text-center font-extrabold">
                 Hello My Friend, choose a chapter you would like to read today!
               </h2>
               <ul className="py-2 ">
