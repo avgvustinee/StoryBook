@@ -13,22 +13,25 @@ export default {
     
     extend: {
       keyframes: {
-        slidein: {
-          from: {
-            opacity: "0",
-            transform: "translateY(-10px)",
-          },
-          to: {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
+        typing: {
+          '0%': { width: '0' },
+          '100%': { width: '100%' },
+        },
+        blink: {
+          '50%': { borderColor: 'transparent' },
         },
       },
       animation: {
-        slidein: "slidein 1s ease 300ms",
+        typing: 'typing 4s steps(30, end) infinite',
+        blink: 'blink 0.75s step-end infinite',
       },
+      
     },
   },
-  plugins: [require('tailwindcss-motion')], 
+  plugins: [
+    require('tailwindcss-motion'),
+    require('tailwindcss-animated'),
+
+  ], 
 };
   
