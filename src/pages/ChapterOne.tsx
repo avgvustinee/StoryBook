@@ -5,7 +5,7 @@ const ChapterOne = () => {
     <div>
       <NavBarChapters />
 
-      <div className="  flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-[#214c74] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md">
+      <div className="  flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-[#214c74] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md overflow-hidden">
         <h3 className=" motion-preset-pop text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#ddecfa] border border-[#9bc9d4] rounded-md mx-2 mt-2 ">
           Behind Story Chapter: The Heart of the Journey
         </h3>

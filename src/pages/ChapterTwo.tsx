@@ -5,7 +5,7 @@ const ChapterTwo = () => {
   return (
     <div >
       <NavBarChapters />
-      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-[#214c74] sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2770px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md">
+      <div className="flex flex-col flex-wrap mx-3  mt-10 bg-[#214c74] sm:mx-[20px]  md:-mx[60px] lg:mx-[90px] h-[2770px] sm:h-full md:h-[800px] lg:w-[820px] lg:h-[950px]  border-b border-cyan-400 rounded-md overflow-hidden">
         <h1 className=" motion-preset-pop text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#ddecfa] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Education Chapter: Building a Foundation
         </h1>
