@@ -10,7 +10,7 @@ const ChapterFive = () => {
   return (
     <div>
       <NavBarChapters />
-      <div className="flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-10 bg-[#214c74] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md overflow-hidden">
+      <div className="flex  flex-wrap mx-3 h-full sm:mx-[50px] lg:mx-[500px] mt-20 bg-[#214c74] md:h-[600px] lg:w-[620px] lg:h-[600px]  border-b border-cyan-400 rounded-md overflow-hidden">
         <h3 className="motion-preset-pop text-3xl text-center justify-center text-clip tracking-wider font-extrabold text-[#ddecfa] border border-[#9bc9d4] rounded-md mx-2 mt-2">
           Coding Journey Chapter: From Curiosity to Mastery
         </h3>
@@ -132,7 +132,7 @@ const ChapterFive = () => {
           <p className="mt-2 text-center mx-10 text-[#ddecfa] ">
             I've completed the first coding module!{" "}
           </p>
-          <p className="text-white mx-4 mt-10 text-center font-roboto">
+          <p className="text-white mx-4 mb-6 mt-10 text-center font-roboto">
             In my final year at university, I learned Python and had the
             opportunity to build a backend using Django ( Web Application Framework ) for a student emergency
             system. The system was designed to help students in health-related
