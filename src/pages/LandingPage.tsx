@@ -22,9 +22,9 @@ const LandingPage = () => {
         <div className="mt-10  mb-10 flex justify-center motion-preset-fade animate-bounce ">
           <Link
             to="/stories"
-            className=" flex  py-2  text-white rounded-md w-40 h-10 border text-center hover:bg-[#8db6c1] font-roboto"
+            className=" flex  py-2  text-white rounded-md w-40 h-10 border hover:border-[#d8edf3] text-center font-roboto cursor-pointer hover:outline-dotted "
           >
-            <span className="ml-2 font-medium text-[#d0e7ef] hover:bg-[#6093a0] ">
+            <span className="ml-2 font-medium text-[#d0e7ef] ">
               Start the Journey{" "}
             </span>
             <ChevronRight className="animate-pulse" />

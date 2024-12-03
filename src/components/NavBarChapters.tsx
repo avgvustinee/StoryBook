@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 
 const NavBarChapters = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-  
+
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
@@ -14,12 +14,13 @@ const NavBarChapters = () => {
     <div className="bg-[#4daaa9] sticky z-50 top-0 h-full">
       <nav className="sticky top-0 backdrop-blur-sm z-50 py-4 mr-3">
         <div className="container py-3 mx-auto relative text-sm">
-          <div className="flex justify-end items-center mx-5 sm:mr-5 md:mr-5 lg:mr-1">
+          <div className="flex justify-between  items-center mx-5 sm:mr-5 md:mr-5 lg:mr-1">
+            <h1 className="font-extrabold text-[#d5f2f9] uppercase text-clip tracking-wide underline underline-offset-4  ">
+              Augustine Shokane
+            </h1>
+
             <div className="md:flex flex-col justify-end relative">
-              <button
-                onClick={toggleNavbar}
-                className="text-[#d5f2f9] text-lg"
-              >
+              <button onClick={toggleNavbar} className="text-[#d5f2f9] text-lg">
                 {mobileDrawerOpen ? <X /> : <Menu />}
               </button>
             </div>
